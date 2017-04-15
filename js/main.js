@@ -16,7 +16,7 @@ jQuery(document).ready(function($){
             { src: 'img/backgrounds/13.jpg' },
         ],
         shuffle: true,
-        overlay: '/img/background-overlay.png',
+        overlay: 'img/background-overlay.png',
         timer: false,
         delay: 7500
     });
