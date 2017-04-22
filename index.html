@@ -24,11 +24,15 @@
 
         <style>
             body {
+                padding: 0;
                 margin: 0;
-                padding-top: 100px;
                 color: #FFFFFF;
                 font-family: 'Slabo 27px', serif;
                 text-align: center;
+            }
+
+            #wrap {
+                padding-top: 100px;
             }
 
             .main {
@@ -56,35 +60,37 @@
         </style>
     </head>
     <body>
-        <div class="container main">
-            <img class="logo" alt="Longhorn PHP Logo" src="/img/logo.png">
-            <h2>There's a new PHP conference coming to Austin, TX in 2018. Sign up below to get updates.</h2>
+        <div id="wrap">
+            <div class="container main">
+                <img class="logo" alt="Longhorn PHP Logo" src="/img/logo.png">
+                <h2>There's a new PHP conference coming to Austin, TX in 2018. Sign up below to get updates.</h2>
 
-            <div class="form-wrap">
-                <!-- Begin MailChimp Signup Form -->
-                <div id="mc_embed_signup">
-                <form action="//longhornphp.us15.list-manage.com/subscribe/post?u=5c1f47ff3bbac5816eed0c4ca&amp;id=e8e7af3007" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll">
+                <div class="form-wrap">
+                    <!-- Begin MailChimp Signup Form -->
+                    <div id="mc_embed_signup">
+                    <form action="//longhornphp.us15.list-manage.com/subscribe/post?u=5c1f47ff3bbac5816eed0c4ca&amp;id=e8e7af3007" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
 
-                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5c1f47ff3bbac5816eed0c4ca_e8e7af3007" tabindex="-1" value=""></div>
-                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5c1f47ff3bbac5816eed0c4ca_e8e7af3007" tabindex="-1" value=""></div>
+                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                        </div>
+                    </form>
                     </div>
-                </form>
+
+                    <!--End mc_embed_signup-->
                 </div>
-
-                <!--End mc_embed_signup-->
             </div>
+
+            <footer class="site-footer">
+                <div class="container">
+                    <p><a href="https://www.meetup.com/austinphp/">Austin PHP Meetup Group</a></p>
+                    <p><a href="/image-credits">Image Credits</a></p>
+                    <p><a href="mailto:info@longhornphp.com">info@longhornphp.com</a></p>
+                </div>
+            </footer>
         </div>
-
-        <footer class="site-footer">
-            <div class="container">
-                <p><a href="https://www.meetup.com/austinphp/">Austin PHP Meetup Group</a></p>
-                <p><a href="/image-credits">Image Credits</a></p>
-                <p><a href="mailto:info@longhornphp.com">info@longhornphp.com</a></p>
-            </div>
-        </footer>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
