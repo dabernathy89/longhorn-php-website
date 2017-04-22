@@ -1,5 +1,5 @@
 jQuery(document).ready(function($){
-    $('body').vegas({
+    $('#wrap').vegas({
         slides: [
             { src: 'img/backgrounds/1.jpg' },
             { src: 'img/backgrounds/2.jpg' },
